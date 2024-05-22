@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #141e30;
+  /* --primary-color: #141e30; */
+  --primary-color: #fff3e0;
   --background-start-rgb: red;
   --background-end-rgb: #bd1d1d;
 }
@@ -18,7 +19,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
 }
 
 @layer utilities {
