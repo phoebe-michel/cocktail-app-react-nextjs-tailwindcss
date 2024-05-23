@@ -26,4 +26,10 @@ body {
   .highlight {
     color: #ffbf00;
   }
+
+  .hero {
+    background-image: url("../../public/lemon-drop.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
 }
