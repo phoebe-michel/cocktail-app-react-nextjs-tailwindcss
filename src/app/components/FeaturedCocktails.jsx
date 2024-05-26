@@ -1,31 +1,31 @@
 const FeaturedCocktails = () => {
   return (
     <div className="featured-cocktails h-auto">
-      <div className="container mx-auto pb-8">
+      <div className="container mx-auto pb-6">
         {/* <h1 className="text-slate-200 text-6xl py-8 text-center">
           Featured Cocktails
         </h1> */}
         <div className="cocktail-cards grid grid-cols-4">
           <img
-            className="hover:shadow-xl hover:shadow-zinc-800 cursor-pointer"
+            className="hover:shadow-zinc-800 cursor-pointer"
             src="https://www.thecocktaildb.com/images/media/drink/709s6m1613655124.jpg"
             alt="Americano"
             srcset=""
           />{" "}
           <img
-            className="hover:shadow-xl hover:shadow-zinc-800 cursor-pointer"
+            className="hover:shadow-zinc-800 cursor-pointer"
             src="https://www.thecocktaildb.com/images/media/drink/1wifuv1485619797.jpg"
             alt="Zima Blaster | 17027"
             srcset=""
           />
           <img
-            className="hover:shadow-xl hover:shadow-zinc-800 cursor-pointer"
+            className="hover:shadow-zinc-800 cursor-pointer"
             src="https://www.thecocktaildb.com/images/media/drink/stwiva1619704025.jpg"
             alt="Mountain Bramble | 178355"
             srcset=""
           />{" "}
           <img
-            className="hover:shadow-xl hover:shadow-zinc-800 cursor-pointer"
+            className="hover:shadow-zinc-800 cursor-pointer"
             src="https://www.thecocktaildb.com/images/media/drink/qxvypq1468924331.jpg"
             alt="Spiced Peach Punch | 13032"
             srcset=""
