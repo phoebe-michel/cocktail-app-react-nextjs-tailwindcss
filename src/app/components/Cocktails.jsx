@@ -3,8 +3,47 @@ import { FiSearch } from "react-icons/fi";
 import FeaturedCocktails from "./FeaturedCocktails";
 
 const Cocktails = () => {
+  const data = [
+    {
+      strCategory: "Ordinary Drinks",
+      strThumbnail:
+        "https://www.thecocktaildb.com/images/media/drink/f9erqb1504350557.jpg",
+    },
+    {
+      strCategory: "Cocktails",
+      strThumbnail:
+        "https://www.thecocktaildb.com/images/media/drink/rptuxy1472669372.jpg",
+    },
+    {
+      strCategory: "Shots",
+      strThumbnail:
+        "https://www.thecocktaildb.com/images/media/drink/dbtylp1493067262.jpg",
+    },
+    {
+      strCategory: "Beers",
+      strThumbnail:
+        "https://www.thecocktaildb.com/images/media/drink/xuwpyu1441248734.jpg",
+    },
+    {
+      strCategory: "Homemade Liqueurs",
+      strThumbnail:
+        "https://www.thecocktaildb.com/images/media/drink/qwxuwy1472667570.jpg",
+    },
+  ];
+  const categories = data.map((drink, index) => {
+    return (
+      <Card key={index} className="h-max-[300px] border-2 shadow-md">
+        <CardBody>
+          <Image alt={drink.strCategory} src={drink.strThumbnail}></Image>
+        </CardBody>
+        <CardFooter className="flex justify-center py-5 text-lg font-medium">
+          {drink.strCategory}
+        </CardFooter>
+      </Card>
+    );
+  });
   return (
-    <section className=" cocktails container flex flex-col justify-center mx-auto">
+    <section className="cocktails container flex flex-col justify-center mx-auto">
       <div className="relative w-full">
         <FeaturedCocktails />
         {/* <input
@@ -23,6 +62,15 @@ const Cocktails = () => {
               name="search"
               placeholder="Enter a cocktail name..."
             />
+          </div>
+        </div>
+      </div>
+
+      <div className="categories-section container h-screen flex justify-center py-28">
+        <div className="px-48">
+          <h2 className="text-5xl text-center">Categories</h2>
+          <div className="categories grid grid-cols-5 gap-4 py-10">
+            {categories}
           </div>
         </div>
       </div>

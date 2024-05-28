@@ -10,25 +10,21 @@ const FeaturedCocktails = () => {
             className="hover:shadow-zinc-800 cursor-pointer"
             src="https://www.thecocktaildb.com/images/media/drink/709s6m1613655124.jpg"
             alt="Americano"
-            srcset=""
           />{" "}
           <img
             className="hover:shadow-zinc-800 cursor-pointer"
             src="https://www.thecocktaildb.com/images/media/drink/1wifuv1485619797.jpg"
             alt="Zima Blaster | 17027"
-            srcset=""
           />
           <img
             className="hover:shadow-zinc-800 cursor-pointer"
             src="https://www.thecocktaildb.com/images/media/drink/stwiva1619704025.jpg"
             alt="Mountain Bramble | 178355"
-            srcset=""
           />{" "}
           <img
             className="hover:shadow-zinc-800 cursor-pointer"
             src="https://www.thecocktaildb.com/images/media/drink/qxvypq1468924331.jpg"
             alt="Spiced Peach Punch | 13032"
-            srcset=""
           />
         </div>
         {/* <div className="pt-20 pb-4 flex justify-center">
