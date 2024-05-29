@@ -8,8 +8,10 @@ async function getData() {
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
 
-  const apiUrl =
-    "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=17175";
+  //   const apiUrl =
+  //     "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=17175";
+
+  const apiUrl = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
   try {
     const res = await fetch(apiUrl);
     const data = await res.json();
