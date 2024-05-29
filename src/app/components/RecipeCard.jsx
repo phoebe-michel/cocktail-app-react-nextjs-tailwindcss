@@ -44,6 +44,12 @@ const RecipeCard = async () => {
         <div className="instructions py-10 text-xl">
           {drink.strInstructions}
         </div>
+
+        <div className="py-5">
+          <button className="bg-[#ff0033] text-white shadow-md rounded-lg text-lg px-5 py-2 cursor-pointer">
+            Shuffle Recipe
+          </button>
+        </div>
       </div>
     </section>
   );
