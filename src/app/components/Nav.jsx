@@ -9,16 +9,18 @@ const Nav = () => {
             Code & Cocktails
           </div>
           <ul className="flex">
-            <li className="p-5 hover:border-b-[#ff0033] cursor-pointer">
+            <li className="p-5 hover:border-b-[#ff0033] cursor-pointer font-light">
               Home
             </li>
-            <li className="p-5 hover:text-[#ff0033] cursor-pointer">
+            <li className="p-5 hover:text-[#ff0033] cursor-pointer font-light">
               Cocktails
             </li>
-            <li className="p-5 hover:text-[#ff0033] cursor-pointer">
+            <li className="p-5 hover:text-[#ff0033] cursor-pointer font-light">
               My Recipes
             </li>
-            <li className="p-5 hover:text-[#ff0033] cursor-pointer">Login</li>
+            <li className="p-5 hover:text-[#ff0033] cursor-pointer font-light">
+              Login
+            </li>
           </ul>
         </div>
       </div>
