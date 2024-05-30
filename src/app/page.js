@@ -5,7 +5,7 @@ import FeaturedCocktails from "./components/FeaturedCocktails";
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import RecipeCard from "./components/RecipeCard";
 
-export default function Home() {
+export default async function Home() {
   const data = [
     {
       strCategory: "Ordinary Drinks",
